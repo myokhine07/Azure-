@@ -1,1 +1,78 @@
+AI Concepts
+    Machine Learning
+        Auto ML - non-experts
+        ML desinger -  graphical interface, no-code development
+        Data metric visualization - analyze and optimize with visualization
+        Notebooks - run own code in jupyter notebook server that directly integrated with studio.
+    Computer Vision - e.g Seeing AI. Can user Azure AI Vision on Azure Vision Studio. 
+        Image classification - classify based on thier contents. type of vehicle.
+        Object detection - classify individual objects within iage, location with bounding box.
+        Semantic Segmentation - advance machine learning - individual pixels, according to the object they belong. 
+        Image analysis - extract info from images including tags, catagog or descriptive caption. 
+        Face detection, Analysis and recognition - detect and locate human faces in image. calssificationa and facial gemetry analysis to recognize based on their facial features.
+        OCR - detect and read text in imacges. road signs or store fronts, doc, letters, invoices, or forms. 
+      Azure AI Vision
+        Image analysis - analysizing images, video, extracting descriptions, tags, objects, test
+        Face - face detection and facial recognition
+        OCR - extracting printed or handwritten text from image, access to digital version of scanned text
+    NLP - understand written and spoken language. 
+	Analyze and interpret text in doc, email and other sources.
+	Interpret spoken language, and synthesize speech responses.
+	Auto translate spoken or writtern phrases between languages
+	Interpret commands and determine appropriate actions.
+		Azure AI Language
+			Azure language studio
+		Azure AI speech
+			Azure Speech studio.
+    Document intelligence and knowledge mining
+	Doc Intelligence - high volumes of variety od data - forms and documents. contacts, health doc, financial forms and more
+		Azure AI Doc intelligence
+			Document intelligence studio.
+	Knowledge mining - large volumes of unstructured data to create searchable knowleedge store. 
+		Azure AI search
+    Gen AI
+	create content, interact with in chat forms. input from NLP. return language, image, code, and audio.
+	Azure OpenAI Service
+		Azure AI Studio to create Gen AI, e.g copilot. 
+    Responsible AI
+	Fairness
+		treat all fairly. 
+	Reliabiity and safety
+		perform reliable and safely. patient symptoms, prescriptions. substantial risk to human life. 
+	privacy and security
+		secure and respect privacy. pii to keep private. 
+	inclusive
+		empower and engage people. benefits to all regardless of physical, gender, sexual, ethnicity, or ther factors. 
+	transparency 
+		be understandable. fully awares of purpose. how it works and limitations. 
+	accountability
+		work within framework of gov and org principles to meets ethical and legal standards. 
+
+Vectorization captures semantic relationships between words by assigning them to locations in n-dimensional space. Lemmatization, also known as stemming, normalizes words before counting them. Frequency analysis counts how often a word appears in a text. N-grams extend frequency analysis to include multi-term phrases.
+
+okenization is part of speech synthesis that involves breaking text into individual words such that each word can be assigned phonetic sounds. Transcribing is part of speech recognition, which involves converting speech into a text representation. Key phrase extraction is part of language processing, not speech synthesis. Lemmatization, also known as stemming, is part of language processing, not speech synthesis.
+
+Language Name, ISO 6391 Code, and Score are three values returned by the Language service of natural language processing (NLP) in Azure. Bounding box coordinates are returned by the Azure AI Vision services in Azure. Wikipedia URL is one of potential values returned by entity linking of entity recognition.
+
+ntity recognition includes the entity linking functionality that returns links to external websites to disambiguate terms (entities) identified in a text.
+
+The Universal Language Model used by the speech-to-text API is optimized for conversational and dictation scenarios. The acoustic, language, and pronunciation scenarios require developing your own model.
+
+ntity Linking, PII detection, and sentiment analysis are all elements of the Azure AI Service for Azure AI Language. Azure AI Vision deals with image processing. Azure AI Content Moderator is an Azure AI Services service that is used to check text, image, and video content for material that is potentially offensive.
+
+Multiple linear regression models a relationship between two or more features and a single label. Linear regression uses a single feature. Logistic regression is a type of classification model, which returns either a Boolean value or a categorical decision. Hierarchical clustering groups data points that have similar characteristics
+
+Predicting rainfall is an example of regression machine learning, as it will predict a numeric value for future rainfall by using historical time-series rainfall data based on factors, such as seasons. Clustering is a machine learning type that analyzes unlabeled data to find similarities in the data. Featurization is not a machine learning type, but a collection of techniques, such as feature engineering, data-scaling, and normalization. Classification is used to predict categories of data.
+
+Regression is an example of supervised machine learning due to the use of historical data with known label values to train a model. Regression does not rely on randomly generated data for training. 
+
+Face identification in the Azure AI Face service can address one-to-many matching of one face in an image to a set of faces in a secure repository. Face verification has the capability for one-to-one matching of a face in an image to a single face from a secure repository or a photo to verify whether they are the same individual. Face attributes, the find similar faces operation, and Azure AI Custom Vision do not verify the identity of a face.
+
+Azure AI Custom Vision is an image recognition service that allows you to build and deploy your own image models. The Azure AI vision service, Azure AI Face service, and Azure AI Language service do not provide the capability to train your own image model.
+Data mining workloads primarily focus on the searching and indexing of data. The computer vision can be used to extract information from images, but it is not a search and indexing solution. Conversational AI is part of natural language processing (NLP) and facilitates the creation of chatbots. Semantic segmentation provides the ability to classify individual pixels in an image depending on the object that they represent.
+
+Multiple linear regression models the relationship between several features and a single label. The features must be independent of each other, otherwise, the model's predictions will be misleading.
+
+In a regression machine learning algorithm, a validation set contains known feature and label values.
+
 
